@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donations</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<section class="donations">
+			<h2><b>Support Our Cause</b></h2>
+			<p>Make a donation to help us continue our mission to revolutionize farming and food distribution.</p>
+			<form>
+				<label for="amount">Donation Amount:</label>
+				<input type="number" id="amount" name="amount" required><br><br>
+				<label for="payment-method">Payment Method:</label>
+				<select id="payment-method" name="payment-method" required>
+					<option value="credit-card">Credit Card</option>
+					<option value="paypal">PayPal</option>
+                                         <option value="Mobile money">Mobile money</option>
+					<option value="bank-transfer">Bank Transfer</option>
+				</select><br><br>
+				<button type="submit">Make Donation</button>
+			</form>
+			<p><B>THANK YOU FOR FIGHTING HUNGER🥰🥰</B></p>
+			<ul>
+				<li><a href="#" class="fa fa-paypal"></a></li>
+
+				<li><a href="#" class="fa fa-credit-card"></a></li>
+				<li><a href="#" class="fa fa-bank"></a></li>
+                                <li><a href="#" class="fa fa-mobile_money"></a></li>
+			</ul>
+		</section>
+	</main>
+<p>Copyright © 2024 Smart Farming & Food Distribution System</p>
+
+<style>
+body {
+  background-image: url("pexels-christina99999-20956991.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.donations {
+	background-color: rgba(255, 255, 255, 0.5); 	padding: 20px;
+	border:transparent ;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 80%;
+	margin: 40px auto;
+color:black;
+
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #444;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.fa {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+
+</style>
+</body>
+</html>
+
+
+

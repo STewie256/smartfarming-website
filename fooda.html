@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Details</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<section class="food-details">
+			<h2>Food Details</h2>
+			<form>
+				<label for="food">Food:</label>
+				<input type="text" id="food" name="food" required><br><br>
+				<label for="price">Price per Kilogram:</label>
+				<input type="number" id="price" name="price" required><br><br>
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location" required><br><br>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
+<style>
+.food-details {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.food-details form {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.food-details label {
+	margin-bottom: 10px;
+}
+
+.food-details input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+.food-details button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.food-details button[type="submit"]:hover {
+	background-color: #444;
+}
+
+<style>
+</body>
+</html>
+
+

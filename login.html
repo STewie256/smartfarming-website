@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<section class="signup">
+			<h2>Sign Up</h2>
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required><br><br>
+				<label for="confirm-password">Confirm Password:</label>
+				<input type="password" id="confirm-password" name="confirm-password" required><br><br>
+				<input type="checkbox" id="terms" name="terms" required>
+				<label for="terms"><b>I agree to the terms and conditions</b></label><br><br>
+                                                                 <button type="submit" onclick="location.href='homepagee.html'">sign up</button>
+
+
+						</section>
+	</main>
+<style>
+body {
+  background-image: url('pexels-cottonbro-3585089.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.signup {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 50%;
+	margin: 40px auto;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+label {
+	margin-bottom: 10px;
+color:#333 ;
+
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+ color: #333; ;
+
+}
+
+button[type="submit"] {
+	background-color: green;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #444;
+}
+
+</style>
+</body>
+</html>
+
+
+
+
